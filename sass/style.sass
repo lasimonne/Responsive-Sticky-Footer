@@ -1,0 +1,41 @@
+@import "bourbon/bourbon"
+
+*
+	+box-sizing(border-box)
+
+html,
+body 
+	margin: 0
+	display: table
+	+size(100%)
+	font:
+		family: $lucida-grande
+		size: 1.1em
+
+.band 
+	height: auto
+	max-width: 960px
+	margin: 0 auto
+	padding: 10px 50px
+	border: 1px solid rgba(black, 0.2)
+	border-top: none
+	border-bottom: none
+	p
+		text-align: justify
+		hyphens: auto
+		font-size: 100%
+
+header, footer
+	height: 1px
+	background-color: lighten(#F9B433, 30%)
+	.band	
+		border: none
+header 
+	display: table-header-group
+	-webkit-box-shadow: 10px 0 10px rgba(black, 0.2)
+	box-shadow: 10px 0 10px rgba(black, 0.2)
+
+footer 
+	display: table-header-group
+
+
