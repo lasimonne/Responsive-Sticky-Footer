@@ -10,7 +10,7 @@ A simple hack to make a responsive sticky footer
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Full-Screen Background Slider</title>
+        <title>Responsive Sticky Footer</title>
     </head>
     <body>
       <header></header>
