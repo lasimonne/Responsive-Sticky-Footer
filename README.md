@@ -12,7 +12,7 @@ A simple hack to make a responsive sticky footer
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Responsive Sticky Footer</title>
     </head>
-    <body>
+    <body> 
       <header></header>
       <section></section>
       <footer></footer>
